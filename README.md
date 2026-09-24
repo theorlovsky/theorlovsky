@@ -15,25 +15,19 @@ I work on Angular platform architecture: shared component systems, Nx monorepos,
 
 - **state:** migrating the advertiser dashboard off Elf to NgRx Signal Store, store by store
 
-### 6.0.0 (2026-04) · MGID
-
-#### ⚠ BREAKING CHANGES
-
-- **role:** Tech Lead → Senior Frontend Developer: back to hands-on delivery, no direct reports
+### 4.2.0 (2026-04) · MGID
 
 #### Features
 
+- **role:** Tech Lead → Senior Frontend Developer: back to hands-on delivery, no direct reports
 - **dashboard:** own frontend delivery end-to-end for my product area in the advertiser dashboard
 - **architecture:** help steer state-management patterns, shared component APIs and complex feature structure across the monorepo
 
-### 5.0.0 (2024-04) · MGID
-
-#### ⚠ BREAKING CHANGES
-
-- **role:** Tech Lead for the two cross-functional advertiser-dashboard teams, 3 direct reports
+### 4.1.0 (2024-04) · MGID
 
 #### Features
 
+- **role:** Tech Lead for the two cross-functional advertiser-dashboard teams, 3 direct reports
 - **ai:** set up the repo's agent tooling (`AGENTS.md`, a shared instruction set, skills for migrations, code review and scaffolding), now extended by the rest of the team
 - **people:** mentored a developer I first hired at Jellyfish; they became a tech lead and are now the top contributor to the UI Kit I started
 
