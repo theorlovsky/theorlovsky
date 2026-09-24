@@ -36,7 +36,9 @@ describe('renderBlock', () => {
     const many = Array.from({ length: 8 }, (_, i) =>
       pullRequest('ngxf/platform', i, `PR ${i}`, `2020-0${i + 1}-01T00:00:00Z`),
     );
-    const listed = renderBlock(many).split('\n').filter((line) => line.startsWith('- '));
+    const listed = renderBlock(many)
+      .split('\n')
+      .filter((line) => line.startsWith('- '));
     assert.equal(listed.length, 5);
     assert.match(listed[0] ?? '', /PR 7/);
   });
@@ -55,7 +57,7 @@ describe('renderBlock', () => {
 describe('injectBlock', () => {
   it('replaces the content between the markers', () => {
     const readme = 'before\n<!-- oss:start -->\nold\n<!-- oss:end -->\nafter';
-    assert.equal(injectBlock(readme, 'new'), 'before\n<!-- oss:start -->\nnew\n<!-- oss:end -->\nafter');
+    assert.equal(injectBlock(readme, 'new'), 'before\n<!-- oss:start -->\n\nnew\n\n<!-- oss:end -->\nafter');
   });
 
   it('throws when the markers are missing', () => {

@@ -94,7 +94,9 @@ I work on Angular platform architecture: shared component systems, Nx monorepos,
 ## Open source
 
 <!-- oss:start -->
-[Merged PRs](https://github.com/pulls?q=is%3Apr%20is%3Amerged%20author%3Atheorlovsky%20-user%3Atheorlovsky) — this block is refreshed daily by GitHub Actions.
+
+[Merged PRs](https://github.com/pulls?q=is%3Apr%20is%3Amerged%20author%3Atheorlovsky%20-user%3Atheorlovsky) — this block is refreshed weekly by GitHub Actions.
+
 <!-- oss:end -->
 
 ### Highlights

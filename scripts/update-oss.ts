@@ -107,7 +107,7 @@ export function injectBlock(readme: string, block: string): string {
   if (start === -1 || end === -1 || end < start) {
     throw new Error(`README is missing ${START_MARKER} … ${END_MARKER}`);
   }
-  return `${readme.slice(0, start + START_MARKER.length)}\n${block}\n${readme.slice(end)}`;
+  return `${readme.slice(0, start + START_MARKER.length)}\n\n${block}\n\n${readme.slice(end)}`;
 }
 
 async function main(): Promise<void> {
