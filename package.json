@@ -1,0 +1,17 @@
+{
+  "name": "theorlovsky",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22.18"
+  },
+  "scripts": {
+    "update-oss": "node scripts/update-oss.ts",
+    "test": "node --test scripts/*.test.ts",
+    "typecheck": "tsc"
+  },
+  "devDependencies": {
+    "@types/node": "^24.13.6",
+    "typescript": "^7.0.2"
+  }
+}
